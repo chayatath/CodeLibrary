@@ -5,7 +5,7 @@ namespace Chayatath.CodeLibrary.Helper
     public class FunctionHelper
     {
         public void SampleCall(){
-            AttemptCall(() => SampleFunction(), 3);
+            string test = AttemptCall(() => SampleFunction(), 3);
         }
         
         public T AttemptCall<T>(Func<T> callback, int count)
